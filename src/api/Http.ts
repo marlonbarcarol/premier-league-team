@@ -17,6 +17,6 @@ export default class Http {
   }
 
   public mountUrl(url: string): string {
-    return this.baseURL + url; 
+    return this.baseURL + url;
   }
 }
