@@ -1,6 +1,6 @@
 <template>
   <ul class="teams reset-list">
-    <team 
+    <team
       v-for="(team, key) in teams"
       v-bind:key="key"
       v-bind:team="team"
